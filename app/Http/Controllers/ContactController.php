@@ -8,6 +8,11 @@ class ContactController extends Controller
 {
     public function store(Request $request)
     {
-        return $request;    
+        $request->validate([
+            'name'      => "required|min:3|max:100",
+            'email'     => "required|email",
+            'subject'   => "required|min:3|max:150",
+            'message'   => "required"
+        ]);    
     }
 }
