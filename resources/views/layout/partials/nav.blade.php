@@ -13,16 +13,16 @@ use App\Helpers\MenuActive;
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="{{ MenuActive::setActive('home') }}">
-                <a class="nav-link" href="{{ route('home') }}">Home</a>
+                <a class="nav-link" href="{{ route('home') }}">@lang('Home')</a>
             </li>
             <li class="{{ MenuActive::setActive('posts') }}">
-                <a class="nav-link" href="{{ route('posts') }}">Post</a>
+                <a class="nav-link" href="{{ route('posts') }}">@lang('Posts')</a>
             </li>
             <li class="{{ MenuActive::setActive('contact') }}">
-                <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+                <a class="nav-link" href="{{ route('contact') }}">@lang('Contact')</a>
             </li>
             <li class="{{ MenuActive::setActive('about') }}">
-                <a class="nav-link" href="{{ route('about') }}">About Me</a>
+                <a class="nav-link" href="{{ route('about') }}">@lang('About me')</a>
             </li>
         </ul>
     </div>

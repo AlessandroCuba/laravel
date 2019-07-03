@@ -3,7 +3,7 @@
 @section('title', 'Contact')
 @section('content')
 
-<h1 class="mt-5">Contact</h1>
+<h1 class="mt-5">@lang('Contact')</h1>
 <hr>
 
 <form action="{{ route('contact') }}" method="POST">
@@ -34,7 +34,7 @@
         {!! $errors->first('message', '<div class="invalid-feedback">:message</div>') !!}
     </div>
 
-     <button type="submit" class="btn btn-success">Sign in</button>
+     <button type="submit" class="btn btn-success">@lang('Send')</button>
 </form>
 
 @endsection()

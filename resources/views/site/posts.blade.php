@@ -3,7 +3,7 @@
 @section('title', 'Posts')
 @section('content')
 
-<h1 class="mt-5">Posts</h1>
+<h1 class="mt-5">@lang('Posts')</h1>
 <hr>
 
 @isset($posts)
