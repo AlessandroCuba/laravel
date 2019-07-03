@@ -6,6 +6,6 @@ class MenuActive
 {
    public static function setActive($routeName)
    {
-       return \request()->routeIs($routeName) ? 'active' : '';
+       return \request()->routeIs($routeName) ? 'nav-item active' : 'nav-item';
    }
 }

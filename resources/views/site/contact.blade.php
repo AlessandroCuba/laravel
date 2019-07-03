@@ -3,17 +3,32 @@
 @section('title', 'Contact')
 @section('content')
 
-<h1>Contact</h1>
+<h1 class="mt-5">Contact</h1>
+<hr>
 
 <form action="{{ route('contact') }}" method="POST">
     @csrf
-    <input type="text" name="name" placeholder="Your Name...">
-    <input type="email" name="email" placeholder="Your Email...">
-    <input type="text" name="subject" placeholder="Your Subject...">
-    <textarea name="subject" id="" cols="30" rows="10"></textarea>
-    <button>Send</button>
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input class="form-control" type="text" name="name" placeholder="Your Name...">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Your Name</label>
+        <input class="form-control" type="text" name="email" placeholder="Your Email...">
+    </div>
+
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input class="form-control" type="text" name="subject" placeholder="Subject">
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" name="message" id="message" rows="10" cols="30"></textarea>
+    </div>
+
+     <button type="submit" class="btn btn-success">Sign in</button>
 </form>
 
 @endsection()
-
-<a></a>

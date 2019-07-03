@@ -3,6 +3,6 @@
 @section('title', 'About me')
 @section('content')
 
-<h1>About</h1>
+<h1 class="mt-5">About</h1>
 
 @endsection()
