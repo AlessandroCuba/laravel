@@ -31,7 +31,7 @@
         <textarea class="form-control" name="content" id="content" rows="10" cols="30">
             {{ old('content') }}
         </textarea>
-        {!! $errors->first('message', '<div class="invalid-feedback">:message</div>') !!}
+        {!! $errors->first('content', '<div class="invalid-feedback">:message</div>') !!}
     </div>
 
      <button type="submit" class="btn btn-success">@lang('Send')</button>
