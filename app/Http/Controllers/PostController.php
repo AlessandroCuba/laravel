@@ -2,16 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PostController extends Controller
 {
-    public $posts = [
-        "posts 1",
-        "posts 2",
-        "posts 3",
-        "posts 4",
-    ];
 
     /**
      * Display a listing of the resource.
@@ -20,8 +16,10 @@ class PostController extends Controller
      */
     public function index()
     {
-        return view('site.posts', [
-            'posts' => $this->posts,  
+        $posts = Post::orderBy('created_at', 'ASC')->paginate();
+
+        return view('post.index', [
+            'posts' => $posts,  
         ]);
     }
 
@@ -54,7 +52,11 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::findorFail($id);
+
+        return view('post.show', [
+            'post' => $post
+        ]);
     }
 
     /**

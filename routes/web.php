@@ -15,12 +15,9 @@ Route::view('/', 'site.home', [
     'name' => 'Manuel Alejandro'
 ])->name('home');
 
-//Route::get('/posts', 'PostController@index')->name('posts');
-Route::resource('/posts', 'PostController', [
-    'names' => [
-        'index' => 'posts'
-    ]
-]);
+Route::get('/posts', 'PostController@index')->name('posts.index');
+
+Route::get('/posts/{id}', 'PostController@show')->name('posts.show');
 
 Route::view('/about', 'site.about')->name('about');
 

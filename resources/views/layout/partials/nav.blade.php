@@ -16,7 +16,7 @@ use App\Helpers\MenuActive;
                 <a class="nav-link" href="{{ route('home') }}">@lang('Home')</a>
             </li>
             <li class="{{ MenuActive::setActive('posts') }}">
-                <a class="nav-link" href="{{ route('posts') }}">@lang('Posts')</a>
+                <a class="nav-link" href="{{ route('posts.index') }}">@lang('Posts')</a>
             </li>
             <li class="{{ MenuActive::setActive('contact') }}">
                 <a class="nav-link" href="{{ route('contact') }}">@lang('Contact')</a>
