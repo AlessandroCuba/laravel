@@ -3,7 +3,12 @@
 @section('title', 'Posts')
 @section('content')
 
-<h1 class="mt-5">@lang('Posts')</h1>
+<h1 class="mt-5">@lang('Posts')
+    <small class="float-right">
+        <a class="btn btn-primary btn-sm" href="{{ route('posts.create') }}"><i class="fa fa-plus"></i> new Post</a>
+    </small>
+</h1>
+
 <hr>
 
 @isset($posts)
@@ -15,7 +20,10 @@
                 </a>
             </div>
             <div class="col-md-9">
-            <h3><a href="{{ route('posts.show', $post) }}" >{{ $post->title }}</a></h3>
+            <h3>
+                <a href="{{ route('posts.show', $post) }}" >{{ $post->title }}</a>
+                <a class="float-right" href="{{ route('posts.edit', $post) }}"><i class="fa fa-pen-fancy"></i></a>
+            </h3>
             <small class="">{{ $post->updated_at->diffforHumans() }}</small>
                 <p>{{ $post->content }}</p>
                 <a class="btn btn-light btn-sm" href="#">Read ...</a>

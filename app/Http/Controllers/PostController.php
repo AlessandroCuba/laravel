@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use App\Http\Requests\ValidateFormPost;
 
 class PostController extends Controller
 {
@@ -30,7 +31,11 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        $post = new Post();    
+
+        return view('post.create', [
+            'post' => $post
+        ]);
     }
 
     /**
@@ -39,9 +44,11 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ValidateFormPost $request)
     {
-        //
+        Post::create($request->validated());
+
+        return redirect()->route('posts.index');
     }
 
     /**
@@ -50,9 +57,9 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Post $post)
     {
-        $post = Post::findorFail($id);
+        //$post = Post::findorFail($id);
 
         return view('post.show', [
             'post' => $post
@@ -65,9 +72,11 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Post $post)
     {
-        //
+        return view('post.edit', [
+            'post'=> $post
+        ]);
     }
 
     /**
@@ -77,9 +86,11 @@ class PostController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Post $post, ValidateFormPost $request)
     {
-        //
+        $post->update($request->validated());
+
+        return redirect()->route('posts.show', $post);
     }
 
     /**
