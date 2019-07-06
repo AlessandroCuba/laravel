@@ -20,10 +20,9 @@
                 </a>
             </div>
             <div class="col-md-9">
-            <h3>
-                <a href="{{ route('posts.show', $post) }}" >{{ $post->title }}</a>
-                <a class="float-right" href="{{ route('posts.edit', $post) }}"><i class="fa fa-pen-fancy"></i></a>
-            </h3>
+                <div class="row">
+                    <h3><a href="{{ route('posts.show', $post) }}" >{{ $post->title }}</a></h3>     
+                </div>
             <small class="">{{ $post->updated_at->diffforHumans() }}</small>
                 <p>{{ $post->content }}</p>
                 <a class="btn btn-light btn-sm" href="#">Read ...</a>

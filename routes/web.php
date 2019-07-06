@@ -22,6 +22,8 @@ Route::get('/posts/{post}/edit', 'PostController@edit')->name('posts.edit');
 Route::post('/posts', 'PostController@store')->name('posts.store');
 Route::get('/posts/{post}', 'PostController@show')->name('posts.show');
 Route::patch('/posts/{post}', 'PostController@update')->name('posts.update');
+Route::delete('/posts/{post}', 'PostController@destroy')->name('posts.delete');
+// end Post
 
 Route::view('/about', 'site.about')->name('about');
 
