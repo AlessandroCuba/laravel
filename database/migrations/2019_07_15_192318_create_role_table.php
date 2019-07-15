@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Post extends Migration
+class CreateRoleTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class Post extends Migration
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::create('roles', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('title');
-            $table->string('slug')->unique();
-            $table->string('content');
-            $table->integer('author')->default(1);
+            $table->string('role');
+            $table->string('description');
             $table->timestamps();
         });
     }
@@ -30,6 +28,6 @@ class Post extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('role');
     }
 }
