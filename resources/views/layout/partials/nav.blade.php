@@ -25,5 +25,20 @@ use App\Helpers\MenuActive;
                 <a class="nav-link" href="{{ route('about') }}">@lang('About me')</a>
             </li>
         </ul>
+        <ul class="navbar-nav flex-row md-auto">
+            <li class="{{ MenuActive::setActive('login') }}">
+                <a class="nav-link" href="{{ route('login.view') }}">@lang('Login')</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Username
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">My Profile</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Logout</a>
+                </div>
+            </li>
+        </ul>
     </div>
 </nav>

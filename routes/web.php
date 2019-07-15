@@ -11,6 +11,15 @@
 |
 */
 
+/*Route::get('test', function(){
+    $user = new App\User;
+    $user->name = 'AlessandroCuba';
+    $user->email = 'alejandro@email.de';
+    $user->password = bcrypt('1234');
+    $user->save();
+});*/
+
+
 Route::view('/', 'site.home', [
     'name' => 'Manuel Alejandro'
 ])->name('home');
@@ -25,8 +34,13 @@ Route::patch('posts/{post}', 'PostController@update')->name('posts.update');
 Route::delete('posts/{post}', 'PostController@destroy')->name('posts.delete');
 // end Post
 
+//Login
+Route::get('login', 'Auth\LoginController@showLoginForm')->name('login.view');
+Route::post('login', 'Auth\LoginController@login')->name('login.form');
+
+
 Route::view('about', 'site.about')->name('about');
-
 Route::view('contact', 'site.contact')->name('contact');
-
 Route::post('contact', 'ContactController@store')->name('contact');
+
+//Auth::routes();
