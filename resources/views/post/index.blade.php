@@ -4,9 +4,11 @@
 @section('content')
 
 <h1 class="mt-5">@lang('Posts')
-    <small class="float-right">
-        <a class="btn btn-primary btn-sm" href="{{ route('posts.create') }}"><i class="fa fa-plus"></i> new Post</a>
-    </small>
+    @can('write Post')
+        <small class="float-right">
+            <a class="btn btn-primary btn-sm" href="{{ route('posts.create') }}"><i class="fa fa-plus"></i> new Post</a>
+        </small>
+    @endcan
 </h1>
 
 <hr>
@@ -21,7 +23,7 @@
             </div>
             <div class="col-md-9">
                 <div class="row">
-                    <h3><a href="{{ route('posts.show', $post) }}" >{{ $post->title }}</a></h3>     
+                    <h3><a href="{{ route('posts.show', $post) }}" >{{ $post->title }}</a></h3>
                 </div>
             <small class="">{{ $post->updated_at->diffforHumans() }}</small>
                 <p>{{ $post->content }}</p>
