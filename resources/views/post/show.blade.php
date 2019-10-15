@@ -16,11 +16,13 @@
             @can('edit Post')
                 <a class="btn btn-warning btn-sm" href="{{ route('posts.edit', $post) }}"><i class="fa fa-pen-fancy"></i></a>
             @endcan
-            <form method="POST" action="{{ route('posts.delete', $post) }}">
-                @csrf
-                @method('DELETE')
-                <button class="btn btn-danger btn-sm" type="submit"><i class="fa fa-trash"></i></button>
-            </form>
+            @can('delete Post')
+                <form method="POST" action="{{ route('posts.delete', $post) }}">
+                    @csrf
+                    @method('DELETE')
+                    <button class="btn btn-danger btn-sm" type="submit"><i class="fa fa-trash"></i></button>
+                </form>
+            @endcan
         </div>
     </div>
 </div>

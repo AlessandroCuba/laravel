@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9d8b1e2-f872-4508-a58b-b42cae84fb13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0046bf23e27ae889946df3e1b01dd127.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X00ac9ab0fc6e37ee6fa9529b7eb9c244.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X0340075bb95761c2c2b9a7903eaab026.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X04fba8b2d7d84bf0a98d792f591b249a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X06a04135ea658e176ec0945d060acff2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X07d74c4a48b458d25ff8ebc164d03777.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1398042bdda7648ee12ac4f985cf0524.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1498dba7224c1d685781c28e64314159.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X14b4bec44c40f7506f8ffa7934c21925.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1726e738b2a6990d8c6e713ebc474b53.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X19709a590c6bb979ee44bfc4b57e8439.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1b7dc8e497e9a60b083d6aa1c4157f41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1bb1139e74165e9409c5084c33275c74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1bb5330dd3f46f2ca8008e872d468f71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1bb6e46a9d968543d8d07192c3f514ac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1bd8b156d8e3280eceef54841e71c71a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X1f833e59827479b8b696f53416d11240.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X21fbc9c0725292bc6015eb6f3ec6aac4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2287c736605e9e0f360d729fb50c9516.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X27f8af1ecdce8009adda19f3b69b6d70.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X29813bfe8118ef5623ef395c98bbda12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2b8e54c98bb8f72abaad026ae3b542a6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2c788724b0814f27dcdc4e0cdd1e670f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2cb592e1b971042b8a45f7092d580995.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X2ecb52c889cbc8811d3a2fed82e28748.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3017d433b84de9981caa0a5167c3091d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X318251a869f2617ec3b03a621497cc51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3231b67d068cc77aad6a096c3d5f80c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X324553bcf5004312a613b1538d3d7313.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X32c51e25c8923e2053b62c734f7f1cee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X361b612998fd38d0390b656042639846.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X37fd23bc52c1ed99f85da316d0d4919f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X38decce4738d0adb7cccc64e59a29e26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3c3804990a1f1edb77a7ff2a968555cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X3fc547a52c5e52805bd3782ca4df3450.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4015afcc67c9633dd08f74f71350e2e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X44c9a899c898b46c9b4b0ec9c3a5a0e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X44caa3b9925e34e891b582a95e48698f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4638b199c61226b4f9426af9033255ee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4729ee363af5fa15c50f8f9c626885b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X48f3aa13cee59b97e62a77b29922a189.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4a0d1b15a5876fbaa44bec9188e1df71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4c1df4e78e4ebb0d09d8d18e4b3b7155.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4d2f82a54b9a8f8be3cf8ea990cb2ce4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4e830c32c6a64b321068280100904d08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X4f146eb57881b4772286702b9a38d024.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X515c645b4dd5dbb20f0ca36971d0346b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X53b2a934eaf41b80f929d87782b22309.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X57476a7aa2a4e62da2c6cdb74f4f582f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X5757f2099bfe0ac0776b6bfc09d27e90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X575f73cc98e46276815ad3c3e339b7cf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X57cb816729fc807ad2ce5303cf6af516.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X5f8f031a403c6a11bb9145e0d28aa174.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X5fd6e732d6c3e51838cdcb13c6161959.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X608e054d15f4c8cad4a5cc4038e38ea7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X646c61f7d1ecce1576507fc02a9248cf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X69932b0819dcfdda7ad343ad37068c4b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X69fd19217a08861b8ef9eb84281e24ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6bd7cd05d400eb26e76f9bfff533eff5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6e8af1db133f5d189d647ae730c889d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X6ed0e9a06b30917cbca91ea28b5ac5ac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X714e102485f944b50e57e8bdfa8604b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7458d991989753f747b11cc1af2cfb0a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X764b32aa4ec77a0f22d2f36b8864950e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X766393b60b3dfc4015991913860f5a06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7676b7464b4bba26dd715a723683a420.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X772becda1704dd203de7c37f5f3aa274.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X773709853432bd85e888e4cf30af0c25.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X789ea7c905dfb868647869873dc73409.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7a29276eb3eaa538ac334610a8782f0d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7a9bc118cfa8a202fa920316a611cb14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7afafe31307514362b3b19ed62be4aa0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7b34548f9391e56c0a988f47acca5b9d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X7c43220ba64de3d9a925361e1a27fbf0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X8187588c9ef9227497205ad255b5500a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X85229d41f6d370b1ccca8495e7173990.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X869b2a7ff3525056e1d5a07f2498503e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X89026634e8b722b50766d5303a8027f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X898e8630017172e836e688543aaa2289.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X908147454d12dea279e3109e6f742415.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9791cece049a2090df303ccbaaf06a7f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X99d52e43973aa21eb382122a9d85880a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9c1cd156a49749f8016dbd34d6c18029.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9e31e2bc8fd2d70c91c1465169243ea1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9e670743eab9ea0cf220266e617d13fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9eda739d7fd5076b3ebf4f50ba9f6eee.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/X9fec16fa3e83f19f3151e4a5e89bc0d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa05a622487f6c4cd389b6befd8906f93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa0a95cbc16c42258a7225a4b5a3d48f6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa19fb7fd41966f0c69d029eaf3fbde62.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa2289995135c0504428c64c22e66978c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa33a78767814d96abb1df580dfdcb2a9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa4c465d7f30d9c74a1acc0cf7ad2523d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa747638225b94baa96e2a7b8585299b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa7ea2cda0b949417ce185e1c0ba65a83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xa905a812b43f05510c2a3e37481fa50a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xabffc6f284f365457053a684b4b4bdaa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xae83935856aefe2a4e68ec3b34ce8a18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xaf742b3cc52dc7f0cb9f8caccffd9e80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb295165aaa3ed3d42526b9c1d32fc2a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xb34ecadd716e68ff278cfb7138beab81.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xbb89b7a1566f6c4379341795e196c1a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xbfe77b357a07a488252c08e041176389.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xc0f51c535a056e18d9128f5015dcf8f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xc67ee54c4fb42e032284a3fac88400eb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xc7d852143093dbf12bcf7e8d2a8990f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xcdd3c58dfefd48ab768e1a9f11fe7236.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xcfd335f5b1b405ee0726664e19d06733.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd2f6b97e2bcea1902a55284195a3ce09.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd3eeb1dfac4e76102542ea488c8e1cc9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd467b15d91aa9745e3a87e9e40bb9984.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd4bf8581d1d3e5a32cefed186ed8f76c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd5a26bfc423d903078d1a8967cf23778.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd763031667bad06fb56bb58f6f94309a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd79908c6d481c98c35103601d6f0677f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd7aee3e242f83ed5ed4ac857f21f31c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xd9b34ddecb24fdec30db9ffdee9fe8f6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xde10dc40f32abc737ba7c6d9dccc7bec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe10f8150e706a55b3700539af368186e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe199f52a0eb81dd33dcfa6e4d33d241d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe2841f1444221eed5767fef4a75df57d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe2ce499ccf77c8ae6b8ee2817600d476.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe68f1228ab95caec54b6ca44839abd77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe6afa910a9711451f2cb87547998f7d7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xe8cf753ecda00945ac63690edec1b98e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xeb1dc9c3511fa2b77c115bf761425d71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xef97db13bdc7321f988d010a0f3d3784.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xefa5ee9bca28753244769eb8dc85d45c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf001c9e87c0ef1a1bc1b1a956ab6c5e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf17c72cf210b664c9972e479f8d7ccec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf84672793ad7238a77237b2228723edf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xf9d5194c5be121b4d5784d349524c0db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xff758066290e4b6b2c23582f6374414c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/debugbar/Xffbfc1c7594ec21c33c481773dfa5a0b.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/post/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/post/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resources/views/post/show.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:8000/" />
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+    </include_path>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/myfirst.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/yii2settings.xml" />
+        <option value="$PROJECT_DIR$/.idea/php.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
+    <option name="y" value="-1" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myfirst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myfirst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myfirst" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9d8b1e2-f872-4508-a58b-b42cae84fb13" name="Default Changelist" comment="" />
+      <created>1563736998603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563736998603</updated>
+      <workItem from="1563736999758" duration="154000" />
+      <workItem from="1563737165518" duration="64000" />
+      <workItem from="1563737245632" duration="239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="457000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3" y="-1" width="1926" height="1057" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.25506938" />
+      <window_info id="Structure" order="1" sideWeight="0.500813" side_tool="true" weight="0.2497332" />
+      <window_info id="npm" order="2" sideWeight="0.500813" side_tool="true" weight="0.2497332" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.3293348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Migrations" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053364" side_tool="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3293348" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/views/post/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/post/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
