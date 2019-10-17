@@ -26,21 +26,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        // Role::create(['name' => 'Admin']);
-        // Permission::create(['name' => 'delete Post']);
-
-        // $role = Role::findById(4);
-        // $permission = Permission::findById(3);
-        // $role->givePermissionTo($permission);
-
-        //auth()->user()->givePermissionTo('publishe Post');
-        //auth()->user()->assignRole(['Writer', 'Editor', 'Publisher']);
-
-        //$roles = \auth()->user()->getRoleNames();
-
-        //return User::permission('update Post')->get();
-
-
-        return view('site.home');
+        return 'hello mundo';
     }
 }
