@@ -11,13 +11,9 @@
 |
 */
 
-/*Route::get('test', function(){
-    $user = new App\User;
-    $user->name = 'AlessandroCuba';
-    $user->email = 'alejandro@email.de';
-    $user->password = bcrypt('1234');
-    $user->save();
-});*/
+Route::get('/', function(){
+    return 'hello';
+});
 
 
 // Post
