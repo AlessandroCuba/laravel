@@ -16,7 +16,8 @@
         "fideloper/proxy": "^4.0",
         "joedixon/laravel-translation": "^1.0",
         "laravel/framework": "^6.0",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "lavary/laravel-menu": "^1.7"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
