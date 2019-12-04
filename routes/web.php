@@ -11,27 +11,8 @@
 |
 */
 
-Route::get('/', function(){
-    return 'hello';
+Route::domain('www.' . config('app.domain'))->group(function (){
+    Route::get('/', function(){
+        return 'www.' . config('app.domain');
+    });
 });
-
-
-// Post
-Route::get('posts', 'PostController@index')->name('posts.index');
-Route::get('posts/create', 'PostController@create')->name('posts.create');
-Route::get('posts/{post}/edit', 'PostController@edit')->name('posts.edit');
-Route::post('posts', 'PostController@store')->name('posts.store');
-Route::get('posts/{post}', 'PostController@show')->name('posts.show');
-Route::patch('posts/{post}', 'PostController@update')->name('posts.update');
-Route::delete('posts/{post}', 'PostController@destroy')->name('posts.delete');
-// end Post
-
-Route::view('about', 'site.about')->name('about');
-Route::view('contact', 'site.contact')->name('contact');
-Route::post('contact', 'ContactController@store')->name('contact');
-
-//Auth::routes();
-
-Auth::routes();
-
-Route::get('/', 'HomeController@index')->name('home');

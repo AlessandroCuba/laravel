@@ -39,7 +39,7 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
-        //
+        $this->mapManagerRoutes();
     }
 
     /**
@@ -69,5 +69,16 @@ class RouteServiceProvider extends ServiceProvider
              ->middleware('api')
              ->namespace($this->namespace)
              ->group(base_path('routes/api.php'));
+    }
+
+    /**
+     * Manager Route Map
+     */
+    protected function mapManagerRoutes()
+    {
+        Route::domain('manager.' . config('app.domain'))
+     //        ->middleware('manager')
+             ->namespace($this->namespace)
+             ->group(base_path('routes/manager.php'));
     }
 }
